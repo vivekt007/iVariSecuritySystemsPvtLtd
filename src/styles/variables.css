@@ -48,35 +48,35 @@ section {
 
 @font-face {
     font-family: "AstoriaLight";
-    src: url("../assets/Fonts/Astoria/AstoriaLight.ttf") format("opentype");
+    src: url("/assets/fonts/Astoria/AstoriaLight.ttf") format("truetype");
     font-weight: 400;
     font-style: Light;
 }
 
 @font-face {
     font-family: "AstoriaRegular";
+    src: url("/assets/fonts/Astoria/AstoriaRoman.ttf") format("truetype");
     font-weight: 400;
-    src: url("../assets/Fonts/Astoria/AstoriaRoman.ttf") format("truetype");
     font-style: normal;
 }
 
 @font-face {
     font-family: "AstoriaMedium";
-    src: url("../assets/Fonts/Astoria/AstoriaMedium.ttf") format("opentype");
+    src: url("/assets/fonts/Astoria/AstoriaMedium.ttf") format("truetype");
     font-weight: 700;
     font-style: Medium;
 }
 
 @font-face {
     font-family: "AstoriaBold";
-    src: url("../assets/Fonts/Astoria/zAstoriaBold.ttf") format("truetype");
+    src: url("/assets/fonts/Astoria/zAstoriaBold.ttf") format("truetype");
     font-weight: 700;
     font-style: Bold;
 }
 
 @font-face {
     font-family: "SulphurLight";
-    src: url("../assets/fonts/SulphurPoint/SulphurPoint-Light.ttf")
+    src: url("/assets/fonts/SulphurPoint/SulphurPoint-Light.ttf")
         format("truetype");
     font-weight: 400;
     font-style: light;
@@ -84,7 +84,7 @@ section {
 
 @font-face {
     font-family: "SulphurRegular";
-    src: url("../assets/fonts/SulphurPoint/SulphurPoint-Regular.ttf")
+    src: url("/assets/fonts/SulphurPoint/SulphurPoint-Regular.ttf")
         format("truetype");
     font-weight: 400;
     font-style: regular;
@@ -92,7 +92,7 @@ section {
 
 @font-face {
     font-family: "SulphurBold";
-    src: url("../assets/fonts/SulphurPoint/SulphurPoint-Bold.ttf")
+    src: url("/assets/fonts/SulphurPoint/SulphurPoint-Bold.ttf")
         format("truetype");
     font-weight: 400;
     font-style: Bold;
@@ -100,7 +100,7 @@ section {
 
 @font-face {
     font-family: "OpenSansBold";
-    src: url("../assets/fonts/Open_Sans/static/OpenSans-Bold.ttf")
+    src: url("/assets/fonts/Open_Sans/static/OpenSans-Bold.ttf")
         format("truetype");
     font-weight: 400;
     font-style: bold;
