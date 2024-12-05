@@ -3,10 +3,9 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
     plugins: [react()],
-    // base: "/reactTest/",
-    // Base path for GitHub Pages
+    base: "/", // Ensures proper paths for static assets in production
     server: {
-        port: 5173,
+        port: 3000,
         host: "0.0.0.0",
         logLevel: "silent",
         client: {
